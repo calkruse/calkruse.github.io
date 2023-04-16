@@ -23,7 +23,7 @@ main {
   grid-template-columns: repeat(auto-fill, minmax(40%, 1fr) ) ;
   grid-gap: 20px;
   margin-top: 44px;
-
+  background-color: #ffffff;
   justify-items: center;
   justify-content: center;
   align-items: start;
@@ -47,10 +47,12 @@ h2 {
 }
 h3 {
   font-family: 'Work Sans';
-  font-size: calc(1em + .5vw);
+  font-size: calc(1em + 2vw);
   border-bottom: 1px solid;
   line-height: 1;
-  color:rgba(255, 255, 255, 0.5)
+  color:rgba(255, 255, 255, 0.5);
+  text-align: center;
+  padding: 20px 20px 20px 20px;
 }
 img {
   width: 100%;
@@ -61,6 +63,7 @@ img {
   margin: auto;
   padding: 50px;
   display: block;
+  color:#ffffff;
 }
 
 .bio {
@@ -71,6 +74,7 @@ font-family: 'Georgia';
 .recipe {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
   width: 100%;
+  border: 3px solid, rgb(0,86,96);
 }
 .buttonBox {
   display: flex;
@@ -96,7 +100,7 @@ font-family: 'Georgia';
 
 .myButton:active {
     position:relative;
-    top:1px;
+    top:2px;
 }
 .a {
 
@@ -132,9 +136,10 @@ font-family: 'Georgia';
   line-height: 1.29;
   letter-spacing: 0.1px;
   text-align: left;
-  color: #4a4a4a;
+  color: #ffffff;
   padding: 10px 0px 10px 10px;
-  border-top: 1px solid #4a4a4a;
+  border-top: 1px solid #ffffff;
+  background-color: #57c3ad;
 }
 
 .logo {
@@ -152,4 +157,13 @@ footer {
   margin-top: 44px;
 }
 
+.link {
+  color: rgba(0,86,96,1)
+}
+.link:visited { 
+  color: rgb(0, 128, 129);
+}
+.link:hover { 
+  color: rgba(52,167,152,1); 
+} 
 
