@@ -52,7 +52,7 @@ img {
 }
 .wrapper {
   max-width: 1150px;
-  margin: 12;
+  margin: auto;
   padding: 50px;
   display: block;
 }
