@@ -1,9 +1,7 @@
-/* Set the scroll behavior to smooth so that when you click the in the header, the screen scrolls down rather than jumps */
 html {
   scroll-behavior: smooth;
 }
 
-/* Set the margin to 0 to make sure the page stretches all the way to the edge of the browser window. */
 body {
   margin: 0;
 }
@@ -54,7 +52,7 @@ img {
 }
 .wrapper {
   max-width: 1150px;
-  margin: auto;
+  margin: 12;
   padding: 50px;
   display: block;
 }
