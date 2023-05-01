@@ -43,7 +43,7 @@ h2 {
   letter-spacing: 0.3px;
   text-align: left;
   color: #208567;
-  padding: 10px 0px 10px 10px;
+  padding: 10px 20px 0px 20px;
 }
 h3 {
   font-family: 'Work Sans';
@@ -70,8 +70,8 @@ color: #ffffff;
 font-size: 20px;
 font-family: 'Georgia';
 }
-.recipe {
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
+.project {
+  box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.5);
   width: 100%;
   border: 3px solid, rgb(0,86,96);
 }
@@ -101,13 +101,6 @@ font-family: 'Georgia';
     position:relative;
     top:2px;
 }
-.a {
-
-}
-
-.c {
-
-}
 
 .time {
   padding-left: 10px;
@@ -136,16 +129,9 @@ font-family: 'Georgia';
   letter-spacing: 0.1px;
   text-align: left;
   color: #ffffff;
-  padding: 10px 0px 10px 10px;
-  border-top: 1px solid #ffffff;
+  padding: 0 20px 20px 20px;
+  border-top: 1px solid #ffffffbc;
   background-color: #57c3ad;
-}
-
-.logo {
-  width: 115px;
-  height: 21.1px;
-  object-fit: contain;
-  padding: 20px;
 }
 
 .container {
