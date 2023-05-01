@@ -3,6 +3,7 @@ html {
 }
 
 body {
+  display: block;
   margin: 0;
 }
 header, footer {
@@ -71,9 +72,8 @@ font-size: 20px;
 font-family: 'Georgia';
 }
 .project {
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.5);
   width: 100%;
-  border: 3px solid, rgb(0,86,96);
 }
 .buttonBox {
   display: flex;
@@ -130,15 +130,15 @@ font-family: 'Georgia';
   letter-spacing: 0.1px;
   text-align: left;
   color: #ffffff;
-  padding: 0 20px 20px 20px;
+  padding: 10px 10px 10px 10px;
   border-top: 1px solid #ffffff;
   background-color: #57c3ad;
 }
 
 .container {
-    margin: auto;
-  }
-
+  min-width: 500px;
+  margin: auto;
+}
 footer {
   margin-top: 44px;
 }
