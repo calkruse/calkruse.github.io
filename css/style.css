@@ -40,7 +40,7 @@ h1 {
 h2 {
   font-family: 'Work Sans';
   font-size: 18px;
-  font-weight: 600;
+  font-weight: bold;
   letter-spacing: 0.3px;
   text-align: left;
   color: #208567;
@@ -145,6 +145,7 @@ footer {
 
 .link {
   color: rgba(0,86,96,1)
+  style="font-weight:bold"
 }
 .link:visited { 
   color: rgb(0, 128, 129);
